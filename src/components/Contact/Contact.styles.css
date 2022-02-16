@@ -1,0 +1,31 @@
+.contact {
+    display: grid;
+    width: 30vw;
+    text-align: left;
+    grid-template-columns: 1fr auto;
+    justify-content: center;
+    grid-column-gap: 40px;
+    font-size: 25px;
+    background-color: rgb(247,247,247);
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.contact-features {
+    display: flex;
+    align-items: center;
+}
+
+.edit-feature, .delete-feature {
+    height: 30px;
+    width: 30px;
+    margin-right: 10px;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit-feature img, .delete-feature img {
+    height: 100%;
+    width: 100%;
+}
